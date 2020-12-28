@@ -33,6 +33,8 @@ $ conda install jupyter <br/>
 $ conda install memory_profiler <br/>
 $ conda install py-xgboost=0.90 <br/>
 
+또는 conda install --file requirement.txt # requirement.txt 파일은 만들어야 함. 
+
 6. 앞에서 만든 가상 환경을 ipython kernel로 등록합니다. <br/>
 $ python -m ipykernel install --user --name book_base 
 
